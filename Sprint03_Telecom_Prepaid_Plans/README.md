@@ -1,9 +1,4 @@
 ## Project Description
-Congratulations! You’ve completed the section on Statistical Data Analysis. It’s time to apply the knowledge and skills you’ve acquired to a real-life analytical case study.
-
-When you finish the project, send your work to the project reviewer for assessment. They’ll provide feedback within 24 hours. Use the feedback to make revisions if necessary, and resubmit your work until it is approved.
-
-## Project Overview
 You work as an analyst for the telecom operator Megaline. The company offers its clients two prepaid plans, Surf and Ultimate. The commercial department wants to know which of the plans brings in more revenue to adjust the advertising budget.
 
 You will carry out a preliminary analysis of the plans based on data from 500 Megaline clients. This dataset includes information on client demographics, plan usage, and revenue generation. Your task is to analyze client behavior and determine which prepaid plan brings in more revenue.
