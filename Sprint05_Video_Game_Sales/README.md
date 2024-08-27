@@ -2,9 +2,19 @@
 
 You work for the online store Ice, which sells video games all over the world. User and expert reviews, genres, platforms (e.g., Xbox or PlayStation), and historical data on game sales are available from open sources. Your task is to identify patterns that determine whether a game succeeds or not. This analysis will help spot potential big winners and plan advertising campaigns for 2017.
 
-**Dataset Information:**
-- The dataset contains sales data up to 2016, with variables such as game name, platform, year of release, genre, and sales across different regions (NA, EU, JP, and others). 
-- Additionally, it includes critic and user scores, as well as ESRB ratings.
+## Data Description
+The dataset consists of information about video games, including sales data, critic scores, and user ratings. The dataset is stored in a file named `games.csv` and includes the following features:
+- **Name**: Name of the game.
+- **Platform**: Platform the game was developed for (e.g., PlayStation, Xbox, PC).
+- **Year_of_Release**: Year the game was released.
+- **Genre**: Category of the game (e.g., Action, Adventure, RPG).
+- **NA_sales**: Sales in North America (in USD million).
+- **EU_sales**: Sales in Europe (in USD million).
+- **JP_sales**: Sales in Japan (in USD million).
+- **Other_sales**: Sales in other countries (in USD million).
+- **Critic_Score**: Critic score out of 100.
+- **User_Score**: User score out of 10.
+- **Rating**: ESRB rating of the game (e.g., E for Everyone, T for Teen, M for Mature).
 
 **Instructions:**
 
