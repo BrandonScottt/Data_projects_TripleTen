@@ -1,11 +1,10 @@
-# Analyzing the Golden Age of Television
-
-## Project Overview
+## Project Description
+-------------------------------------------------------------------------
 This project investigates how IMDb votes influence the ratings of TV shows from the Golden Age of Television, starting in 1999 with the release of *The Sopranos*. The goal is to determine if highly-rated shows from this era also have more votes.
 
-## Dataset
-The dataset is located in `/datasets/movies_and_shows.csv` and includes the following columns:
-- **name**: Actor/Director name
+## Description of the data
+--------------------------------------------------------------------------
+- **[name]**: Actor/Director name
 - **character**: Character played (for actors)
 - **role**: Contribution to the title (actor or director)
 - **title**: Movie/Show title
@@ -16,6 +15,7 @@ The dataset is located in `/datasets/movies_and_shows.csv` and includes the foll
 - **imdb_votes**: Number of IMDb votes
 
 ## Project Stages
+--------------------------------------------------------------------------
 1. **Data Overview**
    - Initial exploration of the dataset, including summary statistics and observations.
 2. **Data Preprocessing**
@@ -24,4 +24,5 @@ The dataset is located in `/datasets/movies_and_shows.csv` and includes the foll
    - Evaluating the relationship between IMDb votes and ratings, focusing on TV shows from the Golden Age of Television. This includes coding steps and interpretation of results.
 
 ## Objective
+--------------------------------------------------------------------------
 Answer the question: "Did the assumption that highly-rated TV shows from the Golden Age of Television have the most votes hold true?"
