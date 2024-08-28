@@ -2,14 +2,14 @@
 
 You work for the OilyGiant mining company. Your task is to find the best place for a new oil well.
 
-### Steps to choose the location:
+## Steps to choose the location:
 
 1. **Data Collection:** Gather the parameters of oil wells in the selected regions, including oil quality and reserve volumes.
 2. **Model Training:** Build a model to predict the volume of reserves in new wells.
 3. **Well Selection:** Identify the oil wells with the highest predicted reserves.
 4. **Profit Maximization:** Choose the region with the highest total profit from the selected wells.
 
-### Data Description:
+## Data Description:
 
 Geological exploration data for three regions are stored in the following files:
 - `geo_data_0.csv`
