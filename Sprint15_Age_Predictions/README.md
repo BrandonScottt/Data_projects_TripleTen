@@ -6,8 +6,8 @@ Good Seed, a supermarket chain, wants to ensure compliance with alcohol laws by 
 
 - **Dataset**: Photographs of individuals with their ages indicated.
 - **Features**:
-  - Images: Photographs of individuals.
-  - Age: The indicated age of the individual in each photograph.
+  - `Images` - Photographs of individuals.
+  - `Age` - The indicated age of the individual in each photograph.
  
 ## Answer these questions:
 - Perform exploratory data analysis to get an overall impression of the dataset.
