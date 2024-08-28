@@ -4,45 +4,27 @@ You work for the online store Ice, which sells video games all over the world. U
 
 ## Data Description
 The dataset consists of information about video games, including sales data, critic scores, and user ratings. The dataset is stored in a file named `games.csv` and includes the following features:
-- **Name**: Name of the game.
-- **Platform**: Platform the game was developed for (e.g., PlayStation, Xbox, PC).
-- **Year_of_Release**: Year the game was released.
-- **Genre**: Category of the game (e.g., Action, Adventure, RPG).
-- **NA_sales**: Sales in North America (in USD million).
-- **EU_sales**: Sales in Europe (in USD million).
-- **JP_sales**: Sales in Japan (in USD million).
-- **Other_sales**: Sales in other countries (in USD million).
-- **Critic_Score**: Critic score out of 100.
-- **User_Score**: User score out of 10.
-- **Rating**: ESRB rating of the game (e.g., E for Everyone, T for Teen, M for Mature).
+- **`Name`**: Name of the game.
+- **`Platform`**: Platform the game was developed for (e.g., PlayStation, Xbox, PC).
+- **`Year_of_Release`**: Year the game was released.
+- **`Genre`**: Category of the game (e.g., Action, Adventure, RPG).
+- **`NA_sales`**: Sales in North America (in USD million).
+- **`EU_sales`**: Sales in Europe (in USD million).
+- **`JP_sales`**: Sales in Japan (in USD million).
+- **`Other_sales`**: Sales in other countries (in USD million).
+- **`Critic_Score`**: Critic score out of 100.
+- **`User_Score`**: User score out of 10.
+- **`Rating`**: ESRB rating of the game (e.g., E for Everyone, T for Teen, M for Mature).
 
-**Instructions:**
-
-1. **Step 1: Data Exploration**
-   - Open the data file and study the general information.
-
-2. **Step 2: Data Preparation**
-   - Replace column names (make them lowercase).
-   - Convert data to the required types.
-   - Handle missing values, especially the 'TBD' cases.
-   - Calculate total sales for each game and create a separate column.
-
-3. **Step 3: Data Analysis**
-   - Analyze the number of games released per year.
-   - Examine sales trends across different platforms.
-   - Focus on relevant data for building a 2017 model.
-   - Compare sales distributions across platforms using box plots.
-   - Investigate the relationship between user/professional reviews and sales.
-   - Analyze the distribution of games by genre and their profitability.
-
-4. **Step 4: Regional User Profiles**
-   - Identify the top five platforms and genres for each region (NA, EU, JP).
-   - Analyze how ESRB ratings affect sales in each region.
-
-5. **Step 5: Hypothesis Testing**
-   - Test hypotheses on average user ratings between platforms (e.g., Xbox One vs. PC) and genres (e.g., Action vs. Sports).
-   - Formulate null and alternative hypotheses.
-   - Set the alpha threshold and explain the significance level chosen.
-
-6. **Step 6: Conclusion**
-   - Summarize your findings and insights from the analysis.
+## Answer these questions:
+- Look at how many games were released in different years. Is the data for every period significant?
+- Look at how sales varied from platform to platform. Choose the platforms with the greatest total sales and build a distribution based on data for each year.
+- Find platforms that used to be popular but now have zero sales.
+- How long does it generally take for new platforms to appear and old ones to fade?
+- Determine what period you should take data for. To do so, look at your answers to the previous questions. The data should allow you to build a prognosis for 2017.
+- Work only with the data that you've decided is relevant. Disregard the data for previous years.
+- Which platforms are leading in sales? Which ones are growing or shrinking? Select several potentially profitable platforms.
+- Build a box plot for the global sales of all games, broken down by platform. Are the differences in sales significant? What about average sales on various platforms? Describe your findings.
+- Take a look at how user and professional reviews affect sales for one popular platform (you choose). Build a scatter plot and calculate the correlation between reviews and sales. Draw conclusions.
+- Keeping your conclusions in mind, compare the sales of the same games on other platforms.
+- Take a look at the general distribution of games by genre. What can we say about the most profitable genres? Can you generalize about genres with high and low sales?
