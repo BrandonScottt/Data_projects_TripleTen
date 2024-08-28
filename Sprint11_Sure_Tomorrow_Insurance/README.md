@@ -11,11 +11,11 @@ The Sure Tomorrow insurance company aims to leverage Machine Learning to tackle 
 
 The dataset consists of the following features:
 
-- **Gender:** The insured person's gender.
-- **Age:** The insured person's age.
-- **Salary:** The insured person's salary.
-- **Number of Family Members:** The number of family members associated with the insured person.
-- **Target:** The number of insurance benefits received by the insured person over the last five years.
+- **`Gender`** The insured person's gender.
+- **`Age`** The insured person's age.
+- **`Salary`** The insured person's salary.
+- **`Number`of Family Members:** The number of family members associated with the insured person.
+- **`Target`** The number of insurance benefits received by the insured person over the last five years.
 
 ## Answer these questions:
 - Check that the data is free of issues — there is no missing data, extreme values, and so on.
