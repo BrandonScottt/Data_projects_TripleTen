@@ -58,3 +58,16 @@ You will carry out a preliminary analysis of the plans based on data from 500 Me
 - `usd_per_minute`: Cost per minute after exceeding the package limits
 - `usd_per_message`: Cost per text after exceeding the package limits
 - `usd_per_gb`: Cost per additional gigabyte of data after exceeding the package limits
+
+## Answer these questions:
+For each user, find:
+
+- The number of calls made and minutes used per month
+- The number of text messages sent per month
+- The volume of data per month
+- The monthly revenue from each user (subtract the free package limit from the total number of calls, text messages, and data; multiply the result by the calling plan value; add the monthly charge depending on the calling plan)
+- Describe the customers' behavior. Find the minutes, texts, and volume of data the users of each plan require per month. Calculate the mean, variance, and standard deviation. Plot histograms. Describe the distributions.
+- The average revenue from users of Ultimate and Surf calling plans differs.
+- The average revenue from users in NY-NJ area is different from that of the users from other regions.
+- How you formulated the null and alternative hypotheses.
+- What criterion you used to test the hypotheses and why.
