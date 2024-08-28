@@ -2,15 +2,15 @@
 This project investigates how IMDb votes influence the ratings of TV shows from the Golden Age of Television, starting in 1999 with the release of *The Sopranos*. The goal is to determine if highly-rated shows from this era also have more votes.
 
 ## Description of the data
-- **name**: Actor/Director name
-- **character**: Character played (for actors)
-- **role**: Contribution to the title (actor or director)
-- **title**: Movie/Show title
-- **type**: Show or movie
-- **genres**: Genres of the title
-- **release_year**: Year of release
-- **imdb_score**: IMDb rating score
-- **imdb_votes**: Number of IMDb votes
+- **`name`**: Actor/Director name
+- **`character`**: Character played (for actors)
+- **`role`**: Contribution to the title (actor or director)
+- **`title`**: Movie/Show title
+- **`type`**: Show or movie
+- **`genres`**: Genres of the title
+- **`release_year`**: Year of release
+- **`imdb_score`**: IMDb rating score
+- **`imdb_votes`**: Number of IMDb votes
 
 ## Project Stages
 1. **Data Overview**
