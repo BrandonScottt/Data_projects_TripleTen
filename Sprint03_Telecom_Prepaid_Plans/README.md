@@ -20,41 +20,6 @@ You will carry out a preliminary analysis of the plans based on data from 500 Me
     - 1 text: $0.01
     - 1 GB of data: $7
 
-## Instructions for Completing the Project
-
-### Step 1: Open and Inspect the Data
-- **File Paths**:
-  - `/datasets/megaline_calls.csv`
-  - `/datasets/megaline_internet.csv`
-  - `/datasets/megaline_messages.csv`
-  - `/datasets/megaline_plans.csv`
-  - `/datasets/megaline_users.csv`
-- Inspect each dataset to understand its structure and contents.
-
-### Step 2: Data Preparation
-- Convert data to the appropriate types.
-- Identify and correct any errors in the data.
-- For each user, calculate:
-  - Number of calls made and minutes used per month.
-  - Number of text messages sent per month.
-  - Volume of data used per month.
-  - Monthly revenue (subtract the free package limits and multiply by the plan's overage charges).
-
-### Step 3: Data Analysis
-- Analyze customer behavior by calculating:
-  - Monthly usage of minutes, texts, and data for each plan.
-  - Mean, variance, and standard deviation of these metrics.
-- Plot histograms and describe the distributions.
-
-### Step 4: Hypothesis Testing
-- Test the following hypotheses:
-  1. The average revenue from users of the Ultimate and Surf plans differs.
-  2. The average revenue from users in the NY-NJ area differs from that of users from other regions.
-- Select an appropriate alpha value and statistical test for each hypothesis.
-
-### Step 5: Conclusion
-- Write a conclusion summarizing your findings and the implications for the advertising budget.
-
 ## Data Description
 
 ### Users Table
